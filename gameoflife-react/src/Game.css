@@ -1,0 +1,58 @@
+.Board {
+  position: relative;
+  margin: 0 auto;
+  background-color: #000;
+  background-image: 
+    linear-gradient(#333 1px, transparent 1px),
+    linear-gradient(90deg, #333 1px, transparent 1px);
+  cursor: pointer;
+}
+
+.Cell {
+  background: #ccc;
+  position: absolute;
+  border-radius: 1px;
+}
+
+.controls {
+  margin-top: 20px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.controls span {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.controls label {
+  margin-right: 20px;
+}
+
+.controls input {
+  width: 70px;
+  margin-left: 8px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  margin: 0 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:active {
+  background-color: #3e8e41;
+}
