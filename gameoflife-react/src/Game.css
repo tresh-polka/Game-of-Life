@@ -36,9 +36,9 @@
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: #4a4a4a;   /* тёмно-серый вместо зелёного */
   border: none;
-  color: white;
+  color: #f0f0f0;
   padding: 6px 12px;
   margin: 0 5px;
   text-align: center;
@@ -47,12 +47,13 @@
   font-size: 14px;
   cursor: pointer;
   border-radius: 4px;
+  transition: background-color 0.2s;
 }
 
 .button:hover {
-  background-color: #45a049;
+  background-color: #5a5a5a;   /* чуть светлее при наведении */
 }
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #3a3a3a;
 }
